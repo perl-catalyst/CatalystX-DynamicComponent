@@ -27,9 +27,6 @@ ok ! any( sub { ! $_->isa('Moose::Object') },
     ),
     'Moose in da hoose';
 
-ok ! any(sub { $_->can('has') && warn("$_ can has") && 1; }, @modules),
-    'However, no lolcat to be found';
-
 ok all( sub  { $_->meta->is_immutable },
         grep { $_->meta !~ /::Role/   } # Skip roles, ewww. I would test
                                         # ->isa('Moose::Role') but that fails

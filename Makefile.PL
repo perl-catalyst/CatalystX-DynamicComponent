@@ -12,6 +12,8 @@ requires 'MooseX::Role::Parameterized' => '0.06';
 requires 'Catalyst::Runtime' => '5.80004';
 requires 'List::MoreUtils';
 
+test_requires 'Test::CleanNamespaces' => '0.01';
+
 resources repository => 'git@github.com:bobtfish/catalyst-dynamicappdemo.git';
 
 auto_install;
