@@ -11,7 +11,7 @@ use List::MoreUtils qw/any all/;
 use Module::Find;
 setmoduledirs("$Bin/../lib", "$Bin/lib");
 
-use Test::More tests => 5;
+use Test::More tests => 4;
 use Test::Exception;
 
 my @modules;
