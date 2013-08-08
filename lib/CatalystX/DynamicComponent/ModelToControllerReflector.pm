@@ -92,7 +92,7 @@ __END__
 
 =head1 NAME
 
-CatalystX::DynamicComponent::ModelToControllerReflector - Generate Catalyst controllers automaticall from models and configuration.
+CatalystX::DynamicComponent::ModelToControllerReflector - Generate Catalyst controllers automatically from models and configuration.
 
 =head1 SYNOPSIS
 
