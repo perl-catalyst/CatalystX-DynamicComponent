@@ -184,7 +184,7 @@ CatalystX::DynamicComponent - Parameterised Moose role providing functionality t
 
 =head1 DESCRIPTION
 
-CatalystX::DynamicComponent aims to provide a flexible and reuseable method of building L<Roles|Moose::Role>
+CatalystX::DynamicComponent aims to provide a flexible and reusable method of building L<Roles|Moose::Role>
 which can be added to L<Catalyst> applications, which generate components dynamically at application
 startup using the L<Moose> meta model.
 
@@ -254,7 +254,7 @@ individually by defining those keys in the C< $config > parameter to your currie
 By default, roles and methods supplied from the curried role, and those passed as config will be merged.
 
 Superclasses, no the other hand, will replace those from the curried configuration if passed as options.
-This is to discourage accidental use of multiple inheritence, if you need this feature enabled, you should
+This is to discourage accidental use of multiple inheritance, if you need this feature enabled, you should
 probably be using Roles instead!
 
 It is possible to change the default behavior of each parameter by passing a 
